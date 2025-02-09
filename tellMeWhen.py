@@ -2,6 +2,7 @@ import subprocess
 import time
 import os
 import sys
+import fzbz_now.isFzBzToday as isFzBzToday
 
 # Push code and alert me when the internet is connected
 
@@ -17,6 +18,12 @@ import sys
 # it is git push, or machine to the bush 
 # this is not the main show, read my README
 # 
+
+fzbz = isFzBzToday.isFzBzToday()
+
+def my_changes():
+  # git status --porcelain
+  return None
 
 def commit_and_push(message):
   # probably okay
@@ -51,7 +58,8 @@ def spin(times):
 def main():
   while True:
     if has_internet():
-      commit_and_push("Automated commit")
+      print(f"{fzbz}/365")
+      commit_and_push(f"{fzbz}/365 - automated commit")
       play_sound()
       break
     else:

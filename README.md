@@ -4,14 +4,55 @@
 
 Fizz Buzz till I
 
-## [fizzbuzz1](fizzbuzz1.py)
+## [fizzbuzz1.py](python/fizzbuzz1.py)
+
+Python
+
+Given an integer n, return a string array answer (1-indexed) where:
+answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
+
+answer[i] == "Fizz" if i is divisible by 3.
+
+answer[i] == "Buzz" if i is divisible by 5.
+
+answer[i] == i (as a string) if none of the above conditions are true.
+
+Constraints:
+1 <= n <= 104
+## [isFzBzToday ?](fzbz_now/isFzBzToday.py)
+The fizz buzz days of the year
+
+## [fizzbuzz1.js](javascript/fizzbuzz1.js)
+
+Javascript
 
 Given an integer n, return a string array answer (1-indexed) where:
 
 answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
+
 answer[i] == "Fizz" if i is divisible by 3.
+
 answer[i] == "Buzz" if i is divisible by 5.
+
 answer[i] == i (as a string) if none of the above conditions are true.
 
-## [isFzBzToday ?](isFzBzToday.py)
-The fizz buzz days of the year
+Constraints:
+1 <= n <= 104
+
+
+## [fizzbuzz2.js](javascript/fizzbuzz2.js)
+
+Javascript recursion
+
+Given an integer n, return a string array answer (1-indexed) where:
+
+answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
+
+answer[i] == "Fizz" if i is divisible by 3.
+
+answer[i] == "Buzz" if i is divisible by 5.
+
+answer[i] == i (as a string) if none of the above conditions are true.
+
+Constraints:
+1 <= n <= 104
