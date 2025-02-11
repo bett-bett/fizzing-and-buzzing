@@ -37,13 +37,9 @@ def has_internet():
 
 
 def play_sound():
-  while True:
-    try:
-      # ... so fill your heart with what's important, and be done with all the rest ..
-      subprocess.run(['mpv', '--loop', 'https://www.youtube.com/watch?v=GvP2oo8_dbs'])
 
-    except KeyboardInterrupt:
-      return
+  # ... so fill your heart with what's important, and be done with all the rest ..
+  subprocess.run(['mpv', '--loop', 'https://www.youtube.com/watch?v=GvP2oo8_dbs'])
 
 
 def spin(times):

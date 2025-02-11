@@ -56,3 +56,6 @@ answer[i] == i (as a string) if none of the above conditions are true.
 
 Constraints:
 1 <= n <= 104
+
+## [fizzbuzz2.py](python/fizzbuzz2.py)
+list comprehension
