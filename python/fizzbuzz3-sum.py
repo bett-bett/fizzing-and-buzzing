@@ -19,4 +19,4 @@ def sum_fizz_buzz (number):
   # return sum([i for i in range(number) if (i % 3 == 0 or i % 5 == 0)])
 
 
-print(sum_fizz_buzz(10))
+print(sum_fizz_buzz(11))
